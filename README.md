@@ -5,17 +5,6 @@ Built with [LangChain](https://github.com/langchain-ai/langchain/), [LangGraph](
 
 Deployed version: [chat.langchain.com](https://chat.langchain.com)
 
-> Looking for the JS version? Click [here](https://github.com/langchain-ai/chat-langchainjs).
-
-The app leverages LangChain and LangGraph's streaming support and async API to update the page in real time for multiple users.
-
-## Running locally
-
-This project is now deployed using [LangGraph Cloud](https://langchain-ai.github.io/langgraph/cloud/), which means you won't be able to run it locally (or without a LangGraph Cloud account). If you want to run it WITHOUT LangGraph Cloud, please use the code and documentation from this [branch](https://github.com/langchain-ai/chat-langchain/tree/langserve).
-
-> [!NOTE]
-> This [branch](https://github.com/langchain-ai/chat-langchain/tree/langserve) **does not** have the same set of features.
-
 ## 📚 Technical description
 
 There are two components: ingestion and question-answering.
